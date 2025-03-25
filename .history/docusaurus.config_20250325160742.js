@@ -5,7 +5,7 @@ const config = {
   tagline: 'your cyber handbook',
   favicon: 'img/favicon.ico',
   url: 'https://github.com',
-  baseUrl: '/ethical-hacking-handbook',
+  baseUrl: '/cyberlabsghana/ethical-hacking-handbook',
   organizationName: 'cyberlabsghana', 
   projectName: 'ethical-hacking-handbook',
   deploymentBranch:"gh-pages",
