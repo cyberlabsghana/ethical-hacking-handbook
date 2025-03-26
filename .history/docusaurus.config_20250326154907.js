@@ -55,7 +55,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Ethical Hacking Handbook',
+        title: 'EhH',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
@@ -65,15 +65,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Get Started',
+            label: 'Tutorial',
           },
-          // { to: '/blog', label: 'TryHackMe', position: 'left' },
-          // { to: '/blog', label: 'HackTheBox', position: 'left' },
-          //            {to: '/blog', label: 'Cyber Labs', position: 'left'},
-          // {to: '/blog', label: 'Job Board', position: 'left'},
-          // { to: '/blog', label: 'Interview', position: 'left' },
-          // { to: '/blog', label: 'Cyber Range', position: 'left' },
-          //    {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
