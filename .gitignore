@@ -1,6 +1,15 @@
 # Dependencies
 /node_modules
-
+.history
+/history.vscode
+/vscode
+/.vscode
+/.history
+/.idea      
+.vscode
+.github
+/github
+./github/workflows
 # Production
 /build
 
