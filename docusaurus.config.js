@@ -2,7 +2,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = { 
   title: 'Ethical Hacking Handbook',
-  tagline: '',
+  tagline: 'Master the Art of Ethical Hacking - Learn | Hack | Secure',
   favicon: 'img/favicon.ico',
   url: 'https://github.com',
   baseUrl: '/ethical-hacking-handbook',
@@ -66,7 +66,13 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Get Started',
+          },   {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'TryHackMe',
           },
+
           // { to: '/blog', label: 'TryHackMe', position: 'left' },
           // { to: '/blog', label: 'HackTheBox', position: 'left' },
           //            {to: '/blog', label: 'Cyber Labs', position: 'left'},
@@ -84,15 +90,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
           {
             title: 'Community',
             items: [
@@ -124,7 +130,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} cyberlabsghana.`,
       },
       prism: {
         theme: prismThemes.github,
