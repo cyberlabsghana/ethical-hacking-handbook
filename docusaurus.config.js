@@ -5,7 +5,7 @@ const config = {
   tagline: 'Master the Art of Ethical Hacking - Learn | Hack | Secure',
   favicon: 'img/favicon.ico',
   url: 'https://github.com',
-  baseUrl: '/ethical-hacking-handbook',
+  baseUrl: '/ethical-hacking-handbook/',
   organizationName: 'cyberlabsghana', 
   projectName: 'ethical-hacking-handbook',
   deploymentBranch:"gh-pages",
