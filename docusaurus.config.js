@@ -80,29 +80,29 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          // {
-          //   title: 'Docs',
-          //   items: [
-          //     {
-          //       label: 'Tutorial',
-          //       to: '/docs/intro',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Tutorial',
+                to: '/docs/01-introduction-to-ethical-hacking/intro',
+              },
+            ],
+          },
           {
             title: 'Community',
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: '#',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: '#',
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: '#',
               },
             ],
           },
@@ -110,12 +110,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'TryHackMe',
                 to: '/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: '#',
               },
             ],
           },
